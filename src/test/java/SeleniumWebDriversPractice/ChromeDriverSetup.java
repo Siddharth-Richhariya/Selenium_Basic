@@ -9,7 +9,6 @@ public class ChromeDriverSetup {
     public static void main(String[] args) {
         chromedriver().setup();
         driver = new ChromeDriver();
-
         try {
             driver.manage().window().maximize();
             driver.get("https://www.google.com/search?q=chuchi");
